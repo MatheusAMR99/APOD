@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../index/index.css">
+</head>
+
+<body>
+    <header id="field">
+        <form action="" class="form" onloadSubmit={handleSubmit}>
+
+            <h1 id="titulo">APOD</h1>
+            <div>
+                <div>
+                    <label for="date" name="Data" id="data"> Coloque uma data para saber oque aconteceu nesse evento
+                        astronômico </label>
+                </div>
+                <br>
+                <div>
+                    <input type="date">
+                </div>
+                </input>
+                <br>
+
+            </div>
+
+        </form>
+        <div>
+            <button onclick="request()" id="botao"> OK</button>
+        </div>
+    </header>
+    <div>
+        <section>
+            <img id="img">
+        </section>
+        <section id="texto">
+            ""
+        </section>
+    </div>
+    <script src="../index/index.js">
+    </script>
+</body>
+
+</html>

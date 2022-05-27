@@ -1,16 +1,13 @@
-.form
+#field
 {
 display: flex;
-justify-content: center;
+flex-direction: column;
 text-align: center;
-padding: 140px;
 }
 
-#field{
+#form{
     border-radius: 10px;
 }
 
-#botao{
-   
-}
+
 
