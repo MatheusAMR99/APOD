@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header id="field">
+    <main id="field">
         <form action="" class="form" onloadSubmit={handleSubmit}>
 
             <h1 id="titulo">APOD</h1>
@@ -21,7 +21,7 @@
                 </div>
                 <br>
                 <div>
-                    <input type="date">
+                    <input type="date" id="date">
                 </div>
                 </input>
                 <br>
@@ -32,13 +32,13 @@
         <div>
             <button onclick="request()" id="botao"> OK</button>
         </div>
-    </header>
+    </main>
     <div>
         <section>
             <img id="img">
         </section>
         <section id="texto">
-            ""
+            
         </section>
     </div>
     <script src="../index/index.js">
