@@ -10,8 +10,9 @@
 </head>
 
 <body>
-    <form action="" class="form">
-        <fieldset id="field">
+    <fieldset id="field">
+    <form action="" class="form" onloadSubmit={handleSubmit}>
+       
             <h1 id="titulo">APOD</h1>
             <div>
                 <div>
@@ -23,14 +24,17 @@
                 </div>
                 </input>
                 <br>
-                <div>
-                    <button type="submit" id="botao"> OK</button>
-                </div>
+               
             </div>
-        </fieldset>
+        
     </form>
+    <div>
+        <button id="botao"> OK</button>
+    </div>
+</fieldset>
 
-    <source src="./index.js">
+    <script src="./index.js">
+        </script>
 </body>
 
 </html>
