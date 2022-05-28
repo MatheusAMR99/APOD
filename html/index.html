@@ -10,14 +10,17 @@
 </head>
 
 <body>
-    <main id="field">
+    <header id="field">
         <form action="" class="form" onloadSubmit={handleSubmit}>
 
             <h1 id="titulo">APOD</h1>
+            <P>(Astronomy Picture of the Day)</P>
             <div>
                 <div>
-                    <label for="date" name="Data" id="data"> Coloque uma data para saber oque aconteceu nesse evento
-                        astronômico </label>
+                    <label for="date" name="Data" id="data"> Put on a date to know what happened in a cosmic event 
+                       
+                         </label>
+                         
                 </div>
                 <br>
                 <div>
@@ -32,7 +35,8 @@
         <div>
             <button onclick="request()" id="botao"> OK</button>
         </div>
-    </main>
+    </header>
+    <br>
     <div>
         <section>
             <img id="img">
